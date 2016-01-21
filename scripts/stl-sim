@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source find_python.sh
+$PYTHON automation/trex_control_plane/client/trex_stateless_sim.py $@
+
